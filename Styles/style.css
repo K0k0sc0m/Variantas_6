@@ -1,0 +1,15 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0 auto;
+
+}
+
+.intro {
+    background-color: #0000004F;
+    height: 1000px;
+    margin-bottom: 200px;
+}
