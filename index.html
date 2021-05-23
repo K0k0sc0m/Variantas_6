@@ -22,23 +22,30 @@
 <body>
     <div class='container'>
         <div class='intro'>
-            <div class='nav_bar'>
-                <div class='links'>
-                    <a href='#' class='underline'>SERVICES</a>
-                    <a href='#' class='underline'>ABOUT US</a>
-                    <a href='#' class='underline'>OUR TEAM</a>
-                    <a href='#' class='underline'>TESTIMONIALS</a>
-                    <a href='#' class='underline'>CONTACTS</a>
+            <div class='navbar-component'>
+                <div class='navbar area'>
+                   
+
+                    <button id='hamburger' class='toggle'>
+                        <span class='icon'></span>
+                    </button>
+
+                    <nav id='navigation' class='list'>
+                        <a href='#' class='item -link'>SERVICES</a>
+                        <a href='#' class='item -link'>ABOUT US</a>
+                        <a href='#' class='item -link'>OUR TEAM</a>
+                        <a href='#' class='item -link'>TESTIMONIALS</a>
+                        <a href='#' class='item -link'>NEWS</a>
+                        <a href='#' class='item -link'>CONTACTS</a>
+                        <a href='#' class='item -link ru'>RU</a>
+                        <a href='#' class='item -link en'>EN</a>
+                        <a href='#' class='item -link search'>
+                            <i class='fa fa-search'></i> <!-- fontawesome icons-->
+                        </a>
+                    </nav>
                 
                 
-                
-                    <a href='#' class='ru_lang underline'>RU</a>
-                    <a href='#' class='eng_lang underline'>EN</a>
-                    <a href='#'class='item'>
-                        <i class='fa fa-search'></i> <!-- fontawesome icons-->
-                    </a>
                 </div>
-             
             </div>
 
             <div class='info'>
@@ -55,12 +62,13 @@
 
                 
             </div>
+        </div>
 
             <div class='rectangles'>
              test
             </div>
 
-        </div>
+    </div>
 
         <div class='body'>
          test
@@ -84,7 +92,15 @@
     </div>
         
 
+<script>
 
+           document.querySelector('.toggle').onclick = function() {
+           this.classList.toggle('active');
+           document.querySelector('.list').classList.toggle('active');
+        }
+
+
+</script>
 
 </body>
 

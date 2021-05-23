@@ -1,0 +1,78 @@
+.intro {
+    max-width: 100%;
+    display: block;
+    font-family: poppins;
+    font-weight: 700;
+    background-color: #0000004F;
+    height: 80rem;
+    margin-bottom: 13.3333rem;
+    padding-left: 8.333%;
+    padding-right: 8.333%;
+    padding-top: 4.2667rem;
+    padding-bottom: 4.2667rem;
+}
+
+
+.intro > .nav_bar > .links {
+    max-width: 83,333%;
+    font-family: poppins;
+    font-size: 1.1333rem;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-left: 20%;
+    text-align: left;
+    border-bottom: solid #FFFFFF ;
+    padding-bottom: 4.2rem;
+}
+
+.intro > .nav_bar > .links > .underline:hover {
+    border-bottom: solid #FFFFFF 0.1333rem;
+    padding-bottom: 0.4667rem; 
+}
+
+.intro > .nav_bar > .links > .item {
+    color: #FFFFFF;
+    background-color: #446CCD;
+    padding: 1.5333rem;
+    margin: 0;
+}
+
+.intro > .nav_bar > .links > .item:hover {
+    color: #FFFFFF;
+    background-color: #0909af;
+    padding: 1.5333rem;
+}
+
+
+.ru_lang {
+    color: #FFFFFF80;
+    margin-left: 27%;
+    margin-right: 2%;
+}
+
+.eng_lang {
+    margin-left: 0;
+    margin-right: 3.3125%;
+
+
+
+
+    <div class='intro'>
+    <div class='nav_bar'>
+        <div class='links'>
+            <a href='#' class='underline'>SERVICES</a>
+            <a href='#' class='underline'>ABOUT US</a>
+            <a href='#' class='underline'>OUR TEAM</a>
+            <a href='#' class='underline'>TESTIMONIALS</a>
+            <a href='#' class='underline'>CONTACTS</a>
+        
+        
+        
+            <a href='#' class='ru_lang underline'>RU</a>
+            <a href='#' class='eng_lang underline'>EN</a>
+            <a href='#'class='item'>
+                <i class='fa fa-search'></i> <!-- fontawesome icons-->
+            </a>
+        </div>
+     
+    </div>
