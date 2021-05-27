@@ -24,33 +24,37 @@
         <div class='intro'>
             <div class='navbar-component'>
                 <div class='navbar area'>
-                   
+                    
 
-                    <button id='hamburger' class='toggle'>
-                        <span class='icon'></span>
-                    </button>
+                        <button id='hamburger' class='toggle'>
+                            <span class='icon'></span>
+                        </button>
 
-                    <nav id='navigation' class='list'>
-                        <a href='#' class='item -link'>SERVICES</a>
-                        <a href='#' class='item -link'>ABOUT US</a>
-                        <a href='#' class='item -link'>OUR TEAM</a>
-                        <a href='#' class='item -link'>TESTIMONIALS</a>
-                        <a href='#' class='item -link'>NEWS</a>
-                        <a href='#' class='item -link'>CONTACTS</a>
-                        <a href='#' class='item -link ru'>RU</a>
-                        <a href='#' class='item -link en'>EN</a>
-                        <a href='#' class='item -link search'>
-                            <i class='fa fa-search'></i> <!-- fontawesome icons-->
-                        </a>
-                    </nav>
+
+
+                        <nav id='navigation' class='list'>
+                            <a href='#' class='item -link'>SERVICES</a>
+                            <a href='#' class='item -link'>ABOUT US</a>
+                            <a href='#' class='item -link'>OUR TEAM</a>
+                            <a href='#' class='item -link'>TESTIMONIALS</a>
+                            <a href='#' class='item -link'>NEWS</a>
+                            <a href='#' class='item -link'>CONTACTS</a>
+                            <a href='#' class='item -link ru'>RU</a>
+                            <a href='#' class='item -link en'>EN</a>
+                            <a href='#' class='item -link search'>
+                                <i class='fa fa-search'></i> <!-- fontawesome icons-->
+                            </a>
+                        </nav>
                 
-                
+                    
                 </div>
             </div>
 
+            <div class='border'></div>
+
             <div class='info'>
                 <div class='big'>
-                    <p>Let us brighten your smile!</p>
+                    <h1>Let us brighten your smile!</h1>
                 </div>
                 <div class='small'>
                     <p>We are dental care clinic that helps people to take care of their health and we have best dental doctors in here.</p>
@@ -60,18 +64,57 @@
                 </button>
 
 
+                <div class='rectangles'>
+                    <div class='call-box'>
+                    <img class='phone' src='https://static.thenounproject.com/png/2647105-200.png'>
+                    <div class='text'>
+                        <h5>Emergency Call</h5>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
+                    </div>
+                    </div>
+                    <div class='where-box'>
+                        <img class='phone' src='https://image.flaticon.com/icons/png/512/1512/1512870.png'>
+                    <div class='text'>
+                        <h5>Emergency Call</h5>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
+                    </div>
+                    </div>
+                    <div class='hours-box'>
+                        <img class='phone' style='filter:none' src='https://image.flaticon.com/icons/png/512/2738/2738399.png'>
+                    <div class='text'>
+                        <h5 style='color:#060606'>Emergency Call</h5>
+                        
+                        <div class='half-box1'>
+                             <p style='color: #6C6C6C;'>Mon - Fri:</p>
+                             <p style='color: #6C6C6C;     '>Saturday:</p>
+                             <p style='color: #6C6C6C;'>Sunday:</p>
+                        </div>
+                        <div class='half-box2'>
+                            <p style='color: #6C6C6C;'>8:00am - 7:00pm</p>
+                            <p style='color: #6C6C6C;'>9:00am - 6:00pm</p>
+                            <p style='color: #6C6C6C;'>Closed</p>
+                        </div>
+                    
+                    </div>
+                    </div>
+                
+                </div>
+
+
                 
             </div>
         </div>
 
-            <div class='rectangles'>
-             test
-            </div>
+            
 
-    </div>
+    
 
         <div class='body'>
-         test
+            <div class='column-1'>
+                <h3>Choose Our Clinic, Choose The Best Care For Yourself and Your Family</h3>
+
+            </div>
+         
         </div>
 
         <div class='About_Us'>
@@ -97,8 +140,12 @@
            document.querySelector('.toggle').onclick = function() {
            this.classList.toggle('active');
            document.querySelector('.list').classList.toggle('active');
-        }
-
+           }
+           document.querySelector('.bzz').onclick = function() {
+           this.classList.toggle('active');
+           document.querySelector('.intro').classList.toggle('active');
+           document.querySelector('.info').classList.toggle('active');
+           }
 
 </script>
 
